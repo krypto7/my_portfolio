@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediqueries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="portfolio-nav">
+      <div class="logo">Nishant Karekar</div>
+      <ul class="nav-link">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="hamberg-nav">
+      <div class="logo">Nishant Karekar</div>
+      <div class="hamberg-menu">
+        <div class="hamberg-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-list">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PROFILE SECTION -->
+    <section id="profile">
+      <div class="section_profile_container">
+        <img src="./assets/profile_pic.png" class="profile-pic" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello,I'm</p>
+        <h1 class="title" class="title">Nishant Karekar</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn_container">
+          <button
+            class="btn btn_color1"
+            onclick="window.open('./assets/Nishant_Karekar_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn_color2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social_container">
+          <img
+            src="./assets/linkedin.png"
+            alt=""
+            class="icon"
+            onclick="location.href='https://linkedin.com'"
+          />
+          <img
+            src="./assets/github.png"
+            alt=""
+            class="icon"
+            onclick="location.href='https://github.com'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <p class="section_text_p1">Get to know</p>
+      <h1 class="title">About Me</h1>
+      <div class="section_container">
+        <div class="section_profile_container">
+          <img src="./assets/krypton.jpg" alt="" class="about-pic" />
+        </div>
+        <div class="about_details_container">
+          <div class="about_container">
+            <div class="details_container">
+              <img src="./assets/experience.png" class="icon" />
+              <h3>Experience</h3>
+              <p>1+ years <br />React js Developer</p>
+            </div>
+            <div class="details_container">
+              <img src="./assets/education.png" class="icon" />
+              <h3>Education</h3>
+              <p>Bachelors Degree<br />Computer Science and Engineering</p>
+            </div>
+          </div>
+          <div class="text_container">
+            Results-driven React Js & React-Native developer and experienced in
+            building cross-platform mobile applications for iOS and Android.
+            Proficient in JavaScript, and React Native, with a strong
+            understanding of component-based architecture and state management
+            also Have basic knowledge in data structure, React JS,
+            HTML5,css3.Excellent communication and analytical skills and highly
+            motivated team player.
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <p class="section_text_p1">Explore my</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience_details_container">
+        <div class="about_container">
+          <div class="details_container">
+            <h2 class="experience_sub_title">Frontend Development</h2>
+            <div class="article_container">
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>InterMediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>ReactJs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>APIs</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details_container">
+            <h2 class="experience_sub_title">Frontend Development</h2>
+            <div class="article_container">
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>Redux Toolkit</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>Git/Github</h3>
+                  <p>InterMediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" class="icon" />
+                <div>
+                  <h3>SCSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" class="icon arrow" />
+    </section>
+
+    <!-- project section -->
+    <section id="project">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="about_container">
+        <div class="details_container color_container">
+          <div class="article_container">
+            <img src="/assets/project-1.png" class="project_image" />
+          </div>
+          <h2 class="experience_sub_title project_title">Project 1</h2>
+          <div class="btn_container">
+            <div
+              class="btn btn_color1 project_btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </div>
+            <div class="btn btn_color1 project_btn">Live Demo</div>
+          </div>
+        </div>
+        <div class="details_container color_container">
+          <div class="article_container">
+            <img src="/assets/project-1.png" class="project_image" />
+          </div>
+          <h2 class="experience_sub_title project_title">Project 1</h2>
+          <div class="btn_container">
+            <div
+              class="btn btn_color1 project_btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </div>
+            <div class="btn btn_color1 project_btn">Live Demo</div>
+          </div>
+        </div>
+        <div class="details_container color_container">
+          <div class="article_container">
+            <img src="/assets/project-1.png" class="project_image" />
+          </div>
+          <h2 class="experience_sub_title project_title">Project 1</h2>
+          <div class="btn_container">
+            <div
+              class="btn btn_color1 project_btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </div>
+            <div class="btn btn_color1 project_btn">Live Demo</div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" class="icon arrow" />
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+      <p class="section_text_p1">get in touch</p>
+      <h1 class="title">Contact</h1>
+      <div class="contact_info_upper_container">
+        <div class="contact_info_container">
+          <img src="assets/email.png" class="icon contact_icon email_icon" />
+          <p>
+            <a href="mailto:nishantkarekar98@gmail.com"
+              >nishantkarekar98@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact_info_container">
+          <img src="assets/linkedin.png" class="icon contact_icon" />
+          <p>
+            <a href="https://linkedin.com">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav_link_container">
+          <ul class="nav-link">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nishant Karekar.All Right Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

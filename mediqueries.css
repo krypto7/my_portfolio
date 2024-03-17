@@ -1,0 +1,102 @@
+@media screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about_container{
+        flex-wrap: wrap;
+    }
+    #about{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    #portfolio-nav{
+        display: none;
+    }
+    #hamberg-nav{
+        display: flex;
+    }
+    #experience, .experience_details_container{
+        margin-top: 2rem;
+    }
+    #profile,.section_container{
+         display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.section_container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section_profile_container{
+        width: 275px;
+        height: 275px;
+        /* background-color: red; */
+        margin-bottom: 1.25rem;
+    }
+    .about_container{
+        margin-top: 0;
+    }
+    .about-pic{
+        margin-bottom: 1.25rem;
+    }
+}
+@media screen and (max-width:600px) {
+    #contact,footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about_container,.contact_info_upper_container,
+    .btn_container{
+        flex-wrap: wrap;
+    }
+    .contact_info_upper_container{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .contact_info_upper_container p, .nav-link li a{
+        font-size: 1rem;
+    }
+    .experience_sub_title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-link{
+        flex-direction: column;
+        gap: 0.5;
+        text-align: center;
+    }
+    .section_profile_container{
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+    .section_text_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text_container{
+         text-align: justify;
+    }
+} 
+@media screen and (max-width:768px) {
+    .section_profile_container{
+        width: 100%;
+        justify-content: center;
+    }
+}
